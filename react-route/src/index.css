@@ -1,0 +1,135 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    /* background-color: #242424; */
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+a {
+    font-weight: 500;
+    color: black;
+    text-decoration: inherit;
+}
+
+h1 {
+    font-size: 2vw;
+    color: #3c3737;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+
+.navbar{
+    display: flex;
+    font-size: 22px;
+  }
+
+.btn-box{
+    width: 13vw;
+    height: 2.5vw;
+    position: absolute;
+    right: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav{
+    padding: 20px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dash{
+    position: absolute;
+    left: 5vw;
+    top: 0;
+}
+
+.btn{
+    background-color: green;
+    font-size: 12px;
+    width: 5vw;
+    height: 1.6vw;
+    text-align: center;
+    border-radius: 4px;
+}
+.dashimg{
+    width: 8vw;
+    height: 6vw;
+}
+
+.login-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 45vw;
+    background-color: #8080802e;
+}
+.login-inpage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 20vw;
+    height: 22vw;
+    border-radius: 10px;
+}
+.sign-inpage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 20vw;
+    height: 27vw;
+    border-radius: 10px;
+}
+
+.email-box{
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+}
+.pass-box{
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+form{
+    width: 15vw;
+}
+.input{
+    border-radius: 4px;
+    height: 2vw;
+    border: 1px solid gray;
+}
+.btn-1{
+    margin-top: 15px;
+    border-radius: 4px;
+    width: 100%;
+    background: #12bf12;
+    height: 2vw;
+    font-weight: 700;
+    color: white;
+    font-size: 12px;
+}
+label{
+    color: black;
+}
